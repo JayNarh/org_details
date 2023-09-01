@@ -19,7 +19,7 @@ resource "azurerm_resource_group" "main" {
 }
 
 resource "azurerm_storage_account" "sa" {
-  name                     = "wellRach"
+  name                     = "wellrach"
   resource_group_name      = resource.azurerm_resource_group.main.name
   location                 = resource.azurerm_resource_group.main.location
   account_tier             = "Standard"
